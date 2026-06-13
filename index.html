@@ -3,32 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SkillSlot — онлайн-запись для своих клиентов</title>
-  <meta name="description" content="SkillSlot — закрытая онлайн-запись без маркетплейса, случайных клиентов и переписок.">
+  <title>SkillSlot — онлайн-запись в Telegram для мастеров</title>
+  <meta name="description" content="SkillSlot — Telegram-сервис записи для мастеров: свободные окна, ссылка для клиентов и запись без переписок. Без маркетплейса и сложной CRM.">
+  <meta property="og:title" content="SkillSlot — онлайн-запись в Telegram для мастеров">
+  <meta property="og:description" content="Добавьте свободные окна, отправьте ссылку клиентам, и они сами выберут удобное время прямо в Telegram.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://skillslot.ru/">
+  <link rel="canonical" href="https://skillslot.ru/">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <header class="header">
-    <a class="brand" href="#"><span class="mark">S</span><b>SkillSlot</b></a>
-    <a class="header-link" href="#launch">Запуск</a>
+    <a class="brand" href="/"><span class="mark">S</span><b>SkillSlot</b></a>
+    <nav class="nav">
+      <a class="header-link" href="#how">Как работает</a>
+      <a class="header-link" href="#niches">Для кого</a>
+    </nav>
   </header>
 
   <main>
     <section class="hero hero-wow">
       <div class="hero-copy">
-        <p class="badge">Не маркетплейс · запись только по доступу</p>
-        <h1>Онлайн-запись для своих клиентов</h1>
-        <p class="lead">SkillSlot помогает специалистам открыть запись только тем, кому они доверяют. Без каталога, случайных людей и бесконечных переписок.</p>
+        <p class="badge">Telegram Mini App · запись по ссылке</p>
+        <h1>Онлайн-запись к мастеру прямо в Telegram</h1>
+        <p class="lead">Добавьте свободные окна, отправьте клиентам ссылку — они сами выберут удобное время без переписок в личке.</p>
 
         <div class="actions">
-          <a class="btn primary" href="#launch">Следить за запуском</a>
-          <a class="btn secondary" href="#trust">Как это работает</a>
+          <a class="btn primary" href="https://t.me/skillslot_bot" target="_blank" rel="noreferrer">Открыть Telegram-бота</a>
+          <a class="btn secondary" href="#how">Посмотреть, как это работает</a>
         </div>
 
         <div class="hero-proof">
-          <span>Закрытый доступ</span>
-          <span>Свободные окна</span>
-          <span>Напоминания</span>
+          <span>Работает в Telegram</span>
+          <span>Только свои клиенты</span>
+          <span>Свои специалисты в одном месте</span>
+          <span>Ссылка или QR-код</span>
+          <span>Расписание для сторис</span>
+          <span>Без сложной CRM</span>
         </div>
       </div>
 
@@ -37,9 +48,9 @@
         <div class="glow glow-two"></div>
 
         <div class="mockup main-mockup">
-          <h3>Мои специалисты</h3>
-          <div class="row"><b>Анна · Маникюр</b><span>Доступ к записи открыт</span></div>
-          <div class="row"><b>Мария · Массаж</b><span>Быстрая запись</span></div>
+          <h3>Запись в Telegram</h3>
+          <div class="row"><b>Маникюр · 90 минут</b><span>свободные окна на этой неделе</span></div>
+          <div class="row"><b>Массаж · 60 минут</b><span>клиент выбирает время сам</span></div>
           <p class="muted-title">Свободные окна</p>
           <div class="slots">
             <button>10:00</button><button>12:30</button>
@@ -48,8 +59,8 @@
         </div>
 
         <div class="floating-card access-card">
-          <b>Доступ открыт</b>
-          <span>только своим клиентам</span>
+          <b>Ссылка и QR</b>
+          <span>отправьте или покажите</span>
         </div>
 
         <div class="floating-card story-mini">
@@ -59,81 +70,109 @@
       </div>
     </section>
 
-    <section id="trust" class="section">
-      <p class="eyebrow">Главное отличие</p>
-      <h2>SkillSlot — это не маркетплейс</h2>
-      <p class="text">В приложении нет общего каталога, где клиент выбирает незнакомого специалиста. Запись работает через доверие: специалист сам решает, кому открыть доступ.</p>
-
-      <div class="card">
-        <h3>Для специалиста</h3>
-        <p>Нет потока случайных заявок. Записываться могут только те клиенты, которым вы сами открыли доступ.</p>
-        <ul>
-          <li>только свои клиенты</li>
-          <li>контроль доступа к расписанию</li>
-          <li>меньше случайных и пустых визитов</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Для клиента</h3>
-        <p>Клиент видит только знакомых специалистов, у которых уже был или которым доверяет.</p>
-        <ul>
-          <li>без поиска по каталогу</li>
-          <li>знакомые специалисты в одном месте</li>
-          <li>запись без переписок и ожидания</li>
-        </ul>
-      </div>
+    <section class="section message-grid">
+      <article class="card">
+        <h2>Больше не нужно отвечать каждому “когда есть свободное время?”</h2>
+        <p>Мастер добавляет доступные окна, отправляет клиенту ссылку, а клиент сам выбирает удобное время. Запись происходит без длинной переписки в личке.</p>
+      </article>
+      <article class="card">
+        <h2>Клиенту не нужно устанавливать новое приложение</h2>
+        <p>Запись открывается прямо в Telegram. Клиент видит свободные окна, выбирает время и подтверждает запись в привычном интерфейсе.</p>
+      </article>
+      <article class="card">
+        <h2>Все свои специалисты в одном месте</h2>
+        <p>Клиент может записываться к знакомым мастерам прямо из Telegram: маникюр, массаж, тренировки, уроки и консультации доступны по ссылкам от самих специалистов.</p>
+      </article>
+      <article class="card">
+        <h2>Только свои клиенты, без случайных заявок</h2>
+        <p>SkillSlot не продвигает мастеров в общем каталоге и не приводит случайных людей. Записаться могут только те, кому мастер сам отправил ссылку.</p>
+      </article>
     </section>
 
-    <section class="section">
-      <p class="eyebrow">Для кого</p>
-      <h2>Для всех, кто работает по времени</h2>
-      <p class="text">Бьюти, массаж, фитнес, медицина, обучение и консультации — там, где есть свободные окна и запись заранее.</p>
-      <div class="tags">
-        <span>Бьюти-мастера</span><span>Массаж / wellness</span><span>Фитнес-тренеры</span>
-        <span>Врачи и специалисты</span><span>Преподаватели</span><span>Консультанты</span>
+    <section id="how" class="section">
+      <p class="eyebrow">Как это работает</p>
+      <h2>Одна ссылка вместо длинного согласования времени</h2>
+      <div class="steps-grid">
+        <article class="card">
+          <h3>Для мастера</h3>
+          <ol>
+            <li>Откройте Telegram-бота SkillSlot.</li>
+            <li>Добавьте услугу и свободные окна.</li>
+          <li>Получите ссылку и QR-код на запись.</li>
+          <li>Отправьте ссылку клиентам или разместите QR-код в профиле, канале, чате, сторис или на рабочем месте.</li>
+          </ol>
+        </article>
+        <article class="card">
+          <h3>Для клиента</h3>
+          <ol>
+          <li>Клиент открывает ссылку или сканирует QR-код.</li>
+            <li>Видит свободное время.</li>
+            <li>Выбирает подходящий слот.</li>
+            <li>Подтверждает запись.</li>
+          </ol>
+        </article>
       </div>
     </section>
 
     <section class="section">
       <p class="eyebrow">Преимущества</p>
-      <h2>Меньше переписок, больше контроля</h2>
+      <h2>Простая запись для частных специалистов</h2>
       <div class="features">
-        <article><h3>Настройка расписания</h3><p>Специалист добавляет услуги, длительность, свободные окна и правила записи.</p></article>
-        <article><h3>Доступ только своим</h3><p>Записываться могут только те, кому специалист сам открыл доступ.</p></article>
-        <article><h3>Быстрая запись</h3><p>Клиент открывает специалиста, видит свободное время и выбирает слот.</p></article>
-        <article><h3>Напоминания</h3><p>Перед визитом клиент и специалист получают напоминание, чтобы запись не потерялась.</p></article>
+        <article><h3>Без лишней CRM</h3><p>SkillSlot подходит мастерам, которым не нужна сложная система управления салоном. Только расписание, свободные окна и запись по ссылке.</p></article>
+        <article><h3>Работает там, где уже общаются клиенты</h3><p>Если ваши клиенты пишут вам в Telegram, им не нужно переходить в незнакомый сервис или устанавливать отдельное приложение.</p></article>
+        <article><h3>Ссылка и QR-код</h3><p>Клиент может открыть запись по ссылке из сообщения или отсканировать QR-код у мастера, в студии, сторис или печатных материалах.</p></article>
+        <article><h3>Расписание для сторис</h3><p>В приложении можно собрать красивую карточку со свободными окнами и опубликовать её в сторис, канале или чате.</p></article>
+        <article><h3>Не маркетплейс</h3><p>Вы сами решаете, кому дать ссылку на запись. SkillSlot не показывает вас в общем каталоге и не смешивает с конкурентами.</p></article>
+        <article><h3>Меньше ручной переписки</h3><p>Клиент сам выбирает время, а мастер не тратит время на уточнения “когда удобно?”.</p></article>
+        <article><h3>Подходит для свободных окон</h3><p>Можно быстро отправить клиентам ссылку на актуальные свободные слоты.</p></article>
+        <article><h3>Удобно для частных специалистов</h3><p>Маникюр, брови, ресницы, массаж, консультации, тренировки, уроки и другие услуги по записи.</p></article>
+      </div>
+    </section>
+
+    <section id="niches" class="section">
+      <p class="eyebrow">Для разных ниш</p>
+      <h2>Онлайн-запись для разных специалистов</h2>
+      <p class="text">SkillSlot подходит мастерам и экспертам, которые принимают своих клиентов по времени и хотят давать ссылку на свободные окна прямо в Telegram.</p>
+      <div class="link-grid">
+        <a href="/telegram-zapis/manikyur/">Для мастера маникюра</a>
+        <a href="/telegram-zapis/brovist/">Для бровиста</a>
+        <a href="/telegram-zapis/resnicy/">Для мастера ресниц</a>
+        <a href="/telegram-zapis/massazh/">Для массажиста</a>
+        <a href="/telegram-zapis/kosmetolog/">Для косметолога</a>
+        <a href="/telegram-zapis/psiholog/">Для психолога</a>
+        <a href="/telegram-zapis/repetitor/">Для репетитора</a>
+        <a href="/telegram-zapis/trener/">Для тренера</a>
+        <a href="/telegram-zapis/fotograf/">Для фотографа</a>
+        <a href="/telegram-zapis/konsultant/">Для консультанта</a>
       </div>
     </section>
 
     <section class="section story">
-      <p class="eyebrow">Фишка для продвижения</p>
-      <h2>Красивое расписание для сторис</h2>
-      <p class="text">Специалист сможет собрать расписание на неделю в красивую карточку прямо из приложения и опубликовать её в сторис или посте.</p>
+      <p class="eyebrow">Свободные окна</p>
+      <h2>Расписание для сторис можно сделать прямо в приложении</h2>
+      <p class="text">Когда появились свободные окна или отмена, мастер быстро обновляет расписание и собирает карточку для сторис со своими слотами. Клиент видит актуальное время и открывает запись по ссылке или QR-коду прямо в Telegram.</p>
 
       <div class="story-card">
         <p>Свободные окна</p>
         <h3>3–9 июня</h3>
         <div class="story-slots"><span>Пн · 12:30</span><span>Ср · 15:00</span><span>Пт · 18:30</span></div>
-        <div class="qr">QR / ссылка на запись</div>
+        <div class="qr">QR / ссылка на запись в Telegram</div>
       </div>
     </section>
 
     <section id="launch" class="launch">
-      <p class="eyebrow">Запуск</p>
-      <h2>SkillSlot уже запускается</h2>
-      <p class="text">Telegram-бот уже доступен, VK-приложение готовим к запуску. Следите за новостями и обновлениями сервиса.</p>
-      <div class="launch-actions" aria-label="Ссылки SkillSlot">
-        <a class="btn primary" href="https://t.me/skillslot_bot" target="_blank" rel="noreferrer">Открыть в Telegram</a>
-        <span class="btn soon" aria-disabled="true">Скоро в VK</span>
-        <a class="btn secondary" href="https://vk.com/skillslot" target="_blank" rel="noreferrer">Группа VK</a>
+      <p class="eyebrow">Начать</p>
+      <h2>Откройте запись в Telegram</h2>
+      <p class="text">SkillSlot работает в Telegram: мастер управляет расписанием, а клиенты записываются по ссылке через удобный Mini App.</p>
+      <div class="launch-actions single-action" aria-label="Ссылка SkillSlot">
+        <a class="btn primary" href="https://t.me/skillslot_bot" target="_blank" rel="noreferrer">Открыть Telegram-бота</a>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <b>SkillSlot</b>
-    <span>Закрытая онлайн-запись к своим специалистам</span>
+    <span>Telegram-сервис записи для своих клиентов</span>
   </footer>
 </body>
 </html>
